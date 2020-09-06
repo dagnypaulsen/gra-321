@@ -1,7 +1,25 @@
-* {
-background-color: red;
+*
+body {
+background-color: #7A9A95;
+font-family: 'Work Sans', sans-serif;
 }
 
-h1{
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600&display=swap');
 
+h1 {
+  color: white;
+  margin: 3% 0% 0% 3%;
+  font-size: 500%;
+}
+
+h2{
+    color: white;
+  margin: 0% 0% 0% 3.5%;
+  font-size: 150%;
+}
+
+ul {
+  color: white;
+  margin: 1% 0% 0% 6%;
+  font-size: 100%;
 }
