@@ -1,14 +1,18 @@
 * {
-background-color: pink;
+background-color: #7A9A95;
 font-family: 'Work Sans', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600&display=swap');
 
 h1 {
-font-family: 'Work Sans', sans-serif;
+  color: white;
+  margin: 3% 0% 0% 3%;
+  font-size: 500%;
 }
 
 ul {
-font-family: 'Bitter', serif;
+  color: white;
+  margin: 1% 0% 0% 6%;
+  font-size: 150%;
 }
