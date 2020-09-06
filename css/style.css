@@ -29,10 +29,14 @@ ul {
   font-size: 125%;
 }
 
-a{
+a {
   color: #E0D7D3;
 }
 
-a:hover {
-  background-color: red;
+a:visited {
+  color: #d1bfa7;
+}
+
+a:hover, a:active, a:focus {
+  color: #3A4660;
 }
