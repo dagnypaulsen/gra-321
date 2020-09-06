@@ -1,14 +1,9 @@
 * {
 background-color: #blue;
-font-family: 'Work Sans', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600&display=swap');
-
 h1 {
-    color: white;
-    margin: 3% 0% 0% 3%;
-    font-size: 500%;
+
 }
 
 h2{
