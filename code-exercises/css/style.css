@@ -13,7 +13,7 @@ background-color: #F2EDD8;
   color: #90B1AA;
   margin: 3% 0% 0% 3%;
   font-size: 500%;
-  /* change header typeface, weight, size, spacing, and color to blue */
+  /* change class typeface, weight, size, spacing, and color to blue for header */
 }
 
 .orange-title {
@@ -22,7 +22,7 @@ background-color: #F2EDD8;
   color: #D76735;
   margin: 3% 0% 0% 3%;
   font-size: 500%;
-  /* change header typeface, weight, size, spacing, and color to orange */
+  /* change class typeface, weight, size, spacing, and color to orange for header */
 }
 
 .orange-subtitle{
@@ -32,7 +32,7 @@ background-color: #F2EDD8;
   color: #D76735;
   margin: 1% 0% 0% 3.5%;
   font-size: 175%;
-    /* change sub-header typeface, weight, size, spacing, and color to orange */
+    /* change class typeface, weight, size, spacing, and color to orange for sub-header */
 }
 
 .blue-subtitle{
@@ -42,7 +42,7 @@ background-color: #F2EDD8;
   color: #90B1AA;
   margin: 1% 0% 0% 3.5%;
   font-size: 175%;
-    /* change sub-header typeface, weight, size, spacing, and color to blue */
+    /* change class typeface, weight, size, spacing, and color to blue for sub-header */
 }
 
 .list-layout {
@@ -55,22 +55,22 @@ background-color: #F2EDD8;
 
 .blue-links {
   color: #90B1AA;
-    /* change list of links color to blue */
+    /* change class color to blue for list of links */
 }
 
 .orange-links {
   color: #D76735;
-    /* change list of links color to orange */
+    /* change class color to orange for list of links */
 }
 
 .orange-hovers:hover, .orange-hovers:active, .orange-hovers:focus {
   color: #D76735;
-    /* change hover color of links to orange */
+    /* change class color of links to orange for hover */
 }
 
 .blue-hovers:hover, .blue-hovers:active, .blue-hovers:focus {
   color: #90B1AA;
-    /* change hover color of links to blue */
+    /* change change color of links to blue for hover */
 }
 
 button{
@@ -87,8 +87,10 @@ button{
 
 .button1:hover, .button1:active, .button1:focus {
   background-color: #90B1AA;
+  /* create class for button 1 so that it has hover */
 }
 
 .button2:hover, .button2:active, .button2:focus {
   background-color: #D76735;
+  /* create class for button 2 so that hover is same color as base button color */
 }
