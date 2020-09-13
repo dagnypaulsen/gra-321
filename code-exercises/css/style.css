@@ -88,3 +88,7 @@ button{
 .button1:hover, .button1:active, .button1:focus {
   background-color: #90B1AA;
 }
+
+.button2:hover, .button2:active, .button2:focus {
+  background-color: #D76735;
+}
