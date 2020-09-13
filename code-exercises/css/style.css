@@ -73,7 +73,7 @@ background-color: #F2EDD8;
     /* change hover color of links to blue */
 }
 
-.orangebutton{
+button{
   background-color: #D76735;
   border: none;
   color: white;
@@ -81,11 +81,11 @@ background-color: #F2EDD8;
   font-family: 'Work Sans';
   text-transform: uppercase;
   padding: 15px 15px 15px 15px;
-  margin: 1% 0% 0% 6%;
-  /* coding colors and layout into button 1 to orange */
+  margin: 1% -4% 0% 6%;
+  /* coding colors and layout into button*/
 }
 
-.button-blue-hover:hover, .button-blue-hover:active, .button-blue-hover:focus {
+button:hover, button:active, button:focus {
   background-color: #90B1AA;
 }
-/* change hover color of button 1 to blue */
+/* change hover color of button */
