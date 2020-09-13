@@ -48,7 +48,7 @@ button{
   background-color: black;
   border: none;
   color: white;
-  font-family: 'Work Sans';
+  font-family: 'Work Sans', sans-serif;
   text-transform: uppercase;
   padding: 1em 2em 1em 2em;
   margin: 1% 0% 0% 6%;
