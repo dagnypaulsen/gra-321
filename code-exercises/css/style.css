@@ -16,7 +16,7 @@ h1 {
   /* change header typeface, weight, color, size, and spacing */
 }
 
-h2{
+h2 {
   font-family: 'Work Sans', sans-serif;
   font-weight: 200;
   font-style: italic;
@@ -43,3 +43,14 @@ a:hover, a:active, a:focus {
   color: #D76735;
     /* change hover color of links */
 }
+
+button{
+  background-color: black;
+  border: none;
+  color: white;
+  font-family: 'Work Sans';
+  text-transform: uppercase;
+  padding: 1em 2em 1em 2em;
+  margin: 1% 0% 0% 6%;
+}
+/* coding design into button 1 */
