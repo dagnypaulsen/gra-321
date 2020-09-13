@@ -45,12 +45,18 @@ a:hover, a:active, a:focus {
 }
 
 button{
-  background-color: black;
+  background-color: #90B1AA;
   border: none;
   color: white;
-  font-family: 'Work Sans', sans-serif;
+  font-size: 100%;
+  font-family: 'Work Sans';
   text-transform: uppercase;
-  padding: 1em 2em 1em 2em;
+  padding: 15px 15px 15px 15px;
   margin: 1% 0% 0% 6%;
+  /* coding colors and layout into button 1 */
 }
-/* coding design into button 1 */
+
+button:hover, button:active, button:focus {
+  background-color: #D76735;
+}
+/* change hover color of button */
