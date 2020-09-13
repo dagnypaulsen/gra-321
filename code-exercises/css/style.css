@@ -81,11 +81,10 @@ button{
   font-family: 'Work Sans';
   text-transform: uppercase;
   padding: 15px 15px 15px 15px;
-  margin: 1% -4% 0% 6%;
+  margin: 2% -4% 0% 6%;
   /* coding colors and layout into button*/
 }
 
-button:hover, button:active, button:focus {
+.button1:hover, .button1:active, .button1:focus {
   background-color: #90B1AA;
 }
-/* change hover color of button */
