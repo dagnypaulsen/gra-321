@@ -13,7 +13,16 @@ background-color: #F2EDD8;
   color: #90B1AA;
   margin: 3% 0% 0% 3%;
   font-size: 500%;
-  /* change header typeface, weight, color, size, and spacing */
+  /* change header typeface, weight, size, spacing, and color to blue */
+}
+
+.orange-title {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 900;
+  color: #D76735;
+  margin: 3% 0% 0% 3%;
+  font-size: 500%;
+  /* change header typeface, weight, size, spacing, and color to orange */
 }
 
 .orange-subtitle{
@@ -23,7 +32,17 @@ background-color: #F2EDD8;
   color: #D76735;
   margin: 1% 0% 0% 3.5%;
   font-size: 175%;
-    /* change sub-header typeface, weight, color, size, and spacing */
+    /* change sub-header typeface, weight, size, spacing, and color to orange */
+}
+
+.blue-subtitle{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  color: #90B1AA;
+  margin: 1% 0% 0% 3.5%;
+  font-size: 175%;
+    /* change sub-header typeface, weight, size, spacing, and color to blue */
 }
 
 .list-layout {
@@ -36,12 +55,22 @@ background-color: #F2EDD8;
 
 .blue-links {
   color: #90B1AA;
-    /* change list of links color */
+    /* change list of links color to blue */
+}
+
+.orange-links {
+  color: #D76735;
+    /* change list of links color to orange */
 }
 
 .orange-hovers:hover, .orange-hovers:active, .orange-hovers:focus {
   color: #D76735;
-    /* change hover color of links */
+    /* change hover color of links to orange */
+}
+
+.blue-hovers:hover, .blue-hovers:active, .blue-hovers:focus {
+  color: #90B1AA;
+    /* change hover color of links to blue */
 }
 
 button{
