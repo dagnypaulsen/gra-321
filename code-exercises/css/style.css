@@ -98,7 +98,7 @@ button{
 .container{
   background-image: url("https://github.com/dagnypaulsen/gra-321/blob/master/code-exercises/img/cactus.jpg?raw=true");
   background-size: cover;
-  height: 700px;
+  height: 600px;
   margin: 0 auto;
   width: 50%;
 }
@@ -112,14 +112,4 @@ button{
   text-align: center;
   top: 200px;
   /* change class typeface, weight, size, spacing, and color to blue for header */
-}
-
-.orange-subtitle-with-space{
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 200;
-  font-style: italic;
-  color: #D76735;
-  margin: 1% 0% 6% 3.5%;
-  font-size: 175%;
-    /* change class typeface, weight, size, spacing, and color to orange for sub-header */
 }
