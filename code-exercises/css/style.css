@@ -115,21 +115,7 @@ button{
   /* change class typeface, weight, size, spacing, and color to orange for header */
 }
 
-.subtitle-mqm{
-  color: grey;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 175%;
-  font-style: italic;
-  font-weight: 200;
-  margin: 0 auto;
-  text-align: center;
-  width: 100%;
-  top: 65px;
-  position: relative
-   /* change class typeface, weight, size, spacing, and color to blue for sub-header */
-}
-
-.title-mqm{
+p{
   color: black;
   font-family: 'Work Sans', sans-serif;
   font-size: 500%;
