@@ -69,12 +69,12 @@ button{
 
   .container2{
     background-image: url("https://github.com/dagnypaulsen/gra-321/blob/master/code-exercises/img/magazine-layout.png?raw=true");
-    background-size: cover;
-    height: 700px;
+    background-size: 700px;
+    height: 925px;
     margin: 0 auto;
-    width: 50%;
+    width: 700px;
   }
-    /* backtround image for exercise 4 */
+    /* background image for exercise 4 */
 
 .img-title{
   color: white;
