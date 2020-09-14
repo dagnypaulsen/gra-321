@@ -96,11 +96,14 @@ button{
 }
 
 .container{
-  background: url('../img/cactus.jpg') blue;
   background-size: cover;
   height: 700px;
   margin: 0 auto;
   width: 50%;
+}
+
+.container{
+    background: url('../img/cactus.jpg') blue;
 }
 
 .img-title{
