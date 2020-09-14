@@ -96,6 +96,7 @@ button{
 }
 
 .container{
+  background: linear-gradient(black, white);
   background-size: cover;
   height: 700px;
   margin: 0 auto;
