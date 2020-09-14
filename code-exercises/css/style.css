@@ -113,3 +113,13 @@ button{
   top: 200px;
   /* change class typeface, weight, size, spacing, and color to blue for header */
 }
+
+.orange-subtitle-with-space{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  color: #D76735;
+  margin: 1% 0% 6% 3.5%;
+  font-size: 175%;
+    /* change class typeface, weight, size, spacing, and color to orange for sub-header */
+}
