@@ -94,3 +94,22 @@ button{
   background-color: #D76735;
   /* create class for button 2 so that hover is same color as base button color */
 }
+
+.container{
+  background-image: url("./img/cactus.jpg");
+  background-size: cover;
+  height: 700px;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.img-title{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 900;
+  font-size: 500%;
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 600 px;
+  /* change class typeface, weight, size, spacing, and color to blue for header */
+}
