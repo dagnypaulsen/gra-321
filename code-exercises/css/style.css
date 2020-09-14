@@ -59,7 +59,7 @@ button{
 }
 
 .container1{
-  background-image: url("/Users/dagnypaulsen/Desktop/MVCD/20 FALL/TECH FOR DESIGN/LINDSEY/gra-321/code-exercises/img/dean.jpg");
+  background-image: url(".//img/dean.jpg");
   background-size: cover;
   height: 700px;
   margin: 0 auto;
@@ -68,7 +68,7 @@ button{
   /* backtround image for exercise 2 */
 
   .container2{
-    background-image: url("/Users/dagnypaulsen/Desktop/MVCD/20 FALL/TECH FOR DESIGN/LINDSEY/gra-321/code-exercises/img/magazine-layout.png");
+    background-image: url(".//img/magazine-layout.png");
     background-size: cover;
     height: 700px;
     margin: 0 auto;
@@ -146,6 +146,6 @@ p{
 
 @media screen and (max-width:700px) {
   body{
-    background-color: grey;
+    background-color: #FBD266;
   }
 }
