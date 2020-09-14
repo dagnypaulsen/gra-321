@@ -140,12 +140,12 @@ p{
 /* ------ Media Queries ------ */
 @media screen and (max-width:1000px) {
   body{
-    background-color: #D76735;
+    background-color: #E0B193;
   }
 }
 
 @media screen and (max-width:700px) {
   body{
-    background-color: #90B1AA;
+    background-color: #ACC3B4;
   }
 }
