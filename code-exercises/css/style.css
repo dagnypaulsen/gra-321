@@ -77,13 +77,13 @@ button{
     /* background image for exercise 4 */
 
 .img-title{
-  color: white;
+  color: black;
   font-family: 'Work Sans', sans-serif;
   font-size: 350%;
   font-weight: 900;
   position: relative;
   text-align: center;
-  top: 200px;
+  top: 615px;
   /* change class typeface, weight, size, spacing, and color for image text */
 }
 
