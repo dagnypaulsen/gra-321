@@ -96,7 +96,7 @@ button{
 }
 
 .container{
-  background-image: url("./img/cactus.jpg");
+  background-color: red;
   background-size: cover;
   height: 700px;
   margin: 0 auto;
@@ -104,12 +104,13 @@ button{
 }
 
 .img-title{
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 900;
-  font-size: 500%;
   color: white;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 350%;
+  font-weight: 900;
+  margin: 0 auto;
   position: relative;
   text-align: center;
-  top: 600 px;
+  top: 200px;
   /* change class typeface, weight, size, spacing, and color to blue for header */
 }
