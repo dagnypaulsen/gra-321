@@ -67,6 +67,15 @@ button{
 }
   /* backtround image for exercise 2 */
 
+  .container2{
+    background-image: url(".//img/magazine-layout.png");
+    background-size: cover;
+    height: 700px;
+    margin: 0 auto;
+    width: 50%;
+  }
+    /* backtround image for exercise 4 */
+
 .img-title{
   color: white;
   font-family: 'Work Sans', sans-serif;
