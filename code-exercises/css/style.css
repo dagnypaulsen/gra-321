@@ -58,8 +58,6 @@ button{
   /* create class for button 2 so that hover is same color as base button color */
 }
 
-
-
 .container{
   background-image: url(".//img/cactus.jpg");
   background-size: cover;
@@ -115,4 +113,44 @@ button{
   font-weight: 900;
   margin: 3% 0% 0% 3%;
   /* change class typeface, weight, size, spacing, and color to orange for header */
+}
+
+.subtitle-mqm{
+  color: grey;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 175%;
+  font-style: italic;
+  font-weight: 200;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  top: 65px;
+  position: relative
+   /* change class typeface, weight, size, spacing, and color to blue for sub-header */
+}
+
+.title-mqm{
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 500%;
+  font-weight: 900;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  top: 65px;
+  position: relative;
+  /* change class typeface, weight, size, spacing, and color to orange for header */
+}
+
+/* ------ Media Queries ------ */
+@media screen and (max-width:1000px) {
+  body{
+    background-color: #D76735;
+  }
+}
+
+@media screen and (max-width:700px) {
+  body{
+    background-color: #90B1AA;
+  }
 }
