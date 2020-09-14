@@ -96,7 +96,7 @@ button{
 }
 
 .container{
-  background-image: url("../img/cactus.jpg");
+  background-image: url('../img/cactus.jpg') blue;
   background-size: cover;
   height: 700px;
   margin: 0 auto;
