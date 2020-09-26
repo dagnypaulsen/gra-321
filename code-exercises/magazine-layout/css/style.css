@@ -1,0 +1,29 @@
+*{
+body {
+background-color: #FFFFFF;
+/* change background color of entire page */
+}
+
+}
+
+.container-title{
+  color: #000000;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 50pt;
+  font-weight: bold;
+  line-height: 50pt;
+  letter-spacing: -45;
+    /* change class color, typeface, size, font weight, and line height*/
+}
+
+.container-subtitle{
+  color: #000000;
+  font-family: 'Georgia', sans-serif;
+  font-size: 25pt;
+  font-weight: regular;
+  line-height: 30pt;
+    /* change class color, typeface, size, font weight, and line height*/
+}
+
+
+}
