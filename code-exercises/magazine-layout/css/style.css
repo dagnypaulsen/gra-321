@@ -4,15 +4,10 @@ background-color: #FFFFFF;
 /* change background color of entire page */
 }
 
-.topcontainer{
-  height: 1007px;
-  width: 1355px;
-}
-
 .container-title{
   background-color: pink;
   font-family: sans-serif;
-  font-size: 50px;
+  font-size: 50;
   font-weight: bold;
   height: 6.04%;
   line-height: 50;
@@ -29,7 +24,7 @@ background-color: #FFFFFF;
   background-color: yellow;
   color: #000000;
   font-family: 'Georgia', sans-serif;
-  font-size: 25px;
+  font-size: 25;
   font-weight: regular;
   height: 6.7%;
   line-height: 30pt;
@@ -45,7 +40,7 @@ background-color: #FFFFFF;
   background-color: blue;
   color: #000000;
   font-family: 'Helvetica Neue', sans-serif;
-  font-size: 18pt;
+  font-size: 18;
   font-weight: regular;
   height: 0.7%;
   line-height: 90pt;
@@ -75,19 +70,16 @@ background-color: #FFFFFF;
 }
 
 .container-image1{
-  height: 1007px;
-  margin-bottom: 13.5px;
-  margin-left: 61.5px;
-  margin-right: 25px;
-  margin-top: 70px;
-  width: 932px;
+  height: 54.02%;
+  margin-bottom: 1.45%;
+  margin-right: 1.74%;
+  margin-top: 3.67%;
+  width: 64.72%;
 }
 
 .container-image2{
-  height: 672px;
-  margin-bottom: 88px;
-  margin-left: 61.5px;
-  margin-right: 25px;
-  margin-top: 13.5px;
-  width: 932px;
+  height: 36.05%;
+  margin-bottom: 2.63%;
+  margin-right: 1.74%;
+  width: 26.77%;
 }
