@@ -5,10 +5,14 @@ background-color: #FFFFFF;
 }
 
 .containermain{
-background-size: 1440px;
-height: 1864px;
-margin 0 auto;
-width: 1440px;
+  background-size: 1440px;
+  height: 1864px;
+  width: 1440px;
+}
+
+.topcontainer{
+  height: 1007px;
+  width: 1355px;
 }
 
 .container-title{
@@ -21,7 +25,7 @@ width: 1440px;
   letter-spacing: -45;
   margin-bottom: 14.5px;
   margin-left: 60px;
-  margin-right:
+  margin-right: 61.5px;
   margin-top: 233px;
   width: 300px;
     /* change class color, typeface, size, font weight, and line height*/
@@ -64,3 +68,25 @@ width: 1440px;
     background-color: salmon;
     /* change class color, typeface, size, font weight, and line height*/
 }
+
+.container-image1{
+  background-image: url(https://github.com/dagnypaulsen/gra-321/blob/master/code-exercises/magazine-layout/img/bowls.png?raw=true);
+  height: 1007px;
+  margin-bottom: 13.5px;
+  margin-left: 61.5px;
+  margin-right: 25px;
+  margin-top: 70px;
+  width: 932px;
+}
+
+.container-image2{
+  background-image: url(https://github.com/dagnypaulsen/gra-321/blob/master/code-exercises/magazine-layout/img/knife-block.png?raw=true);
+  height: 672px;
+  margin-bottom: 88px;
+  margin-left: 61.5px;
+  margin-right: 25px;
+  margin-top: 13.5px;
+  width: 932px;
+}
+
+  /* background image for exercise 4 */
