@@ -1,29 +1,66 @@
-*{
+*
 body {
 background-color: #FFFFFF;
 /* change background color of entire page */
 }
 
+.containermain{
+background-size: 1440px;
+height: 1864px;
+margin 0 auto;
+width: 1440px;
 }
 
 .container-title{
-  color: #000000;
-  font-family: 'Helvetica Neue', sans-serif;
-  font-size: 50pt;
+  background-color: pink;
+  font-family: sans-serif;
+  font-size: 50px;
   font-weight: bold;
-  line-height: 50pt;
+  height: 97px;
+  line-height: 50px;
   letter-spacing: -45;
+  margin-bottom: 14.5px;
+  margin-left: 60px;
+  margin-right:
+  margin-top: 233px;
+  width: 300px;
     /* change class color, typeface, size, font weight, and line height*/
 }
 
 .container-subtitle{
+  background-color: yellow;
   color: #000000;
   font-family: 'Georgia', sans-serif;
-  font-size: 25pt;
+  font-size: 25px;
   font-weight: regular;
+  height: 125px;
   line-height: 30pt;
+  letter-spacing: 11;
+  margin-bottom: 895px;
+  margin-left: 60px;
+  margin-top: 14.5px;
+  width: 300px;
     /* change class color, typeface, size, font weight, and line height*/
 }
 
+.container-pagenumber{
+  color: #000000;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 18pt;
+  font-weight: regular;
+  line-height: 90pt;
+  letter-spacing: -30;
+    background-color: blue;
+    /* change class color, typeface, size, font weight, and line height*/
+}
 
+.container-text{
+  color: #000000;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 18;
+  font-weight: regular;
+  line-height: 25.5pt;
+  letter-spacing: -30;
+    background-color: salmon;
+    /* change class color, typeface, size, font weight, and line height*/
 }
