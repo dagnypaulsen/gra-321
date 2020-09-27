@@ -4,6 +4,18 @@ background-color: #FFFFFF;
 /* change background color of entire page */
 }
 
+.column1{
+  float: left;
+  width: 33.54%;
+  position: relative;
+}
+
+.column2{
+  float: right;
+  width: 66.46%;
+  position: relative;
+}
+
 .container-title{
   background-color: pink;
   font-family: 'Helvetics Neue', sans-serif;
@@ -49,7 +61,6 @@ background-color: #FFFFFF;
   margin-left: 80.63%;
   margin-right: 4.6%;
   width: 14.72%;
-
     /* change class color, typeface, size, font weight, and line height*/
 }
 
