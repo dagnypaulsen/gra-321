@@ -4,12 +4,6 @@ background-color: #FFFFFF;
 /* change background color of entire page */
 }
 
-.containermain{
-  background-size: 1440px;
-  height: 1864px;
-  width: 1440px;
-}
-
 .topcontainer{
   height: 1007px;
   width: 1355px;
@@ -20,14 +14,14 @@ background-color: #FFFFFF;
   font-family: sans-serif;
   font-size: 50px;
   font-weight: bold;
-  height: 97px;
-  line-height: 50px;
+  height: 6.04%;
+  line-height: 50;
   letter-spacing: -45;
-  margin-bottom: 14.5px;
-  margin-left: 60px;
-  margin-right: 61.5px;
-  margin-top: 233px;
-  width: 300px;
+  margin-bottom: 1.56%;
+  margin-left: 4.17%;
+  margin-right: 10.06%;
+  margin-top: 7.67%;
+  width: 19.44%;
     /* change class color, typeface, size, font weight, and line height*/
 }
 
@@ -37,40 +31,50 @@ background-color: #FFFFFF;
   font-family: 'Georgia', sans-serif;
   font-size: 25px;
   font-weight: regular;
-  height: 125px;
+  height: 6.7%;
   line-height: 30pt;
   letter-spacing: 11;
-  margin-bottom: 895px;
-  margin-left: 60px;
-  margin-top: 14.5px;
-  width: 300px;
+  margin-bottom: 48.02%;
+  margin-left: 4.17%;
+  margin-right: 7.04%;
+  width: 17.28%;
     /* change class color, typeface, size, font weight, and line height*/
 }
 
 .container-pagenumber{
+  background-color: blue;
   color: #000000;
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 18pt;
   font-weight: regular;
+  height: 0.7%;
   line-height: 90pt;
   letter-spacing: -30;
-    background-color: blue;
+  margin-bottom: 1.39%;
+  margin-left: 80.63%;
+  margin-right: 4.6%;
+  width: 14.72%;
+
     /* change class color, typeface, size, font weight, and line height*/
 }
 
 .container-text{
+  background-color: salmon;
   color: #000000;
   font-family: 'Helvetica', sans-serif;
   font-size: 18;
   font-weight: regular;
+  height: 24.03%;
   line-height: 25.5pt;
   letter-spacing: -30;
-    background-color: salmon;
+  margin-bottom: 4.61%;
+  margin-left: 4.38%;
+  margin-right: 5.14%;
+  width: 26.77%;
     /* change class color, typeface, size, font weight, and line height*/
 }
 
 .container-image1{
-  background-image: url(https://github.com/dagnypaulsen/gra-321/blob/master/code-exercises/magazine-layout/img/bowls.png?raw=true);
   height: 1007px;
   margin-bottom: 13.5px;
   margin-left: 61.5px;
@@ -80,7 +84,6 @@ background-color: #FFFFFF;
 }
 
 .container-image2{
-  background-image: url(https://github.com/dagnypaulsen/gra-321/blob/master/code-exercises/magazine-layout/img/knife-block.png?raw=true);
   height: 672px;
   margin-bottom: 88px;
   margin-left: 61.5px;
@@ -88,5 +91,3 @@ background-color: #FFFFFF;
   margin-top: 13.5px;
   width: 932px;
 }
-
-  /* background image for exercise 4 */
