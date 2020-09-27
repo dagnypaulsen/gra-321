@@ -71,7 +71,7 @@ button{
     background-image: url("https://github.com/dagnypaulsen/gra-321/blob/master/code-exercises/img/magazine-layout.png?raw=true");
     background-size: 1440px;
     height: 1864px;
-    margin: 0 auto;
+    margin: 10% 10% 10% 10%;
     width: 1440px;
   }
     /* background image for exercise 4 */
