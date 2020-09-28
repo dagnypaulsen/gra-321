@@ -4,14 +4,16 @@ background-color: #494949;
 /* change background color of entire page */
 }
 
+.flexbox-item{
+  display: flex;
+}
+
 .column1{
-  float: left;
   width: 33.54%;
   position: relative;
 }
 
 .column2{
-  float: right;
   width: 66.46%;
   position: relative;
 }
@@ -41,25 +43,11 @@ background-color: #494949;
   height: 6.7%;
   line-height: 30pt;
   letter-spacing: 11;
+  letter-spacing: -30;
+  margin-bottom: 48.02%;
   margin-left: 4.17%;
   margin-right: 7.04%;
   width: 66.67%
-    /* change class color, typeface, size, font weight, and line height*/
-}
-
-.container-pagenumber{
-  background-color: blue;
-  color: #000000;
-  font-family: 'Helvetica Neue', sans-serif;
-  font-size: 18;
-  font-weight: regular;
-  height: 0.7%;
-  line-height: 90pt;
-  letter-spacing: -30;
-  margin-bottom: 1.39%;
-  margin-left: 80.63%;
-  margin-right: 4.6%;
-  width: 14.72%;
     /* change class color, typeface, size, font weight, and line height*/
 }
 
@@ -71,13 +59,27 @@ background-color: #494949;
   font-weight: regular;
   height: 24.03%;
   line-height: 25.5pt;
-  letter-spacing: -30;
-  margin-top: 48.02%;
   margin-left: 4.38%;
   margin-right: 5.14%;
   width: 71.64%;
     /* change class color, typeface, size, font weight, and line height*/
 }
+
+.container-pagenumber{
+  background-color: blue;
+  color: #000000;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  font-weight: regular;
+  height: 0.7%;
+  line-height: 90pt;
+  letter-spacing: -30;
+  margin-bottom: 1.39%;
+  margin-left: 70.85%;
+  width: 22.15%;
+    /* change class color, typeface, size, font weight, and line height*/
+}
+
 
 .container-image1{
   height: 54.02%;
