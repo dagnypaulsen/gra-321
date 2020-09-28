@@ -67,21 +67,18 @@ button{
 }
   /* backtround image for exercise 2 */
 
-  .container2{
-    weight: 720;
-    height: 832;
-    margin-bottom: 1.45%;
-    margin-right: 1.74%;
-    margin-top: 3.67%;
+.container2{
+  width: auto;
+  height: auto;
+  margin-bottom: 1.45%;
+  margin-top: 3.67%;
   }
     /* image for exercise 4 */
 
-  .container3{
-    weight: 320;
-    height: 1668;
-    margin-bottom: 2.63%;
-    margin-right: 1.74%;
-    }
+.container3{
+  width: auto;
+  height: auto;
+  }
       /* image2 for exercise 4 */
 
 .img-title{

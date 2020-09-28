@@ -1,6 +1,6 @@
 *
 body {
-background-color: #494949;
+background-color: #ffffff;
 /* change background color of entire page */
 }
 
@@ -84,7 +84,6 @@ background-color: #494949;
 .container-image1{
   height: 54.02%;
   margin-bottom: 1.45%;
-  margin-right: 1.74%;
   margin-top: 3.67%;
   width: 64.72%;
 }
@@ -92,6 +91,5 @@ background-color: #494949;
 .container-image2{
   height: 36.05%;
   margin-bottom: 2.63%;
-  margin-right: 1.74%;
   width: 64.72%;
 }
