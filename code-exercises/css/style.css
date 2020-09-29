@@ -68,16 +68,16 @@ button{
   /* backtround image for exercise 2 */
 
 .container2{
-  width: auto;
-  height: auto;
-  margin-bottom: 1.45%;
-  margin-top: 3.67%;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
   }
     /* image for exercise 4 */
 
 .container3{
-  width: auto;
-  height: auto;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
   }
       /* image2 for exercise 4 */
 

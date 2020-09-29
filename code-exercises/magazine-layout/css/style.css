@@ -1,95 +1,87 @@
 *
 body {
-background-color: #ffffff;
-/* change background color of entire page */
-}
-
-.flexbox-item{
-  display: flex;
+  background-color: #ffffff;
+  /* change background color of entire page */
 }
 
 .column1{
-  width: 33.54%;
+  width: 33%;
   position: relative;
+/* size out column1 */
 }
 
 .column2{
-  width: 66.46%;
+  width: 67%;
   position: relative;
+/* size out column1 */
 }
 
-.container-title{
-  background-color: pink;
-  font-family: 'Helvetics Neue', sans-serif;
-  font-size: 50;
-  font-weight: bold;
-  height: 6.04%;
-  line-height: 50;
-  letter-spacing: -45;
-  margin-bottom: 1.56%;
-  margin-left: 4.17%;
-  margin-right: 10.06%;
-  margin-top: 7.67%;
-  width: 55.9%;
-    /* change class color, typeface, size, font weight, and line height*/
+.container-image1{
+  margin-bottom: 2%;
+  margin-top: 4%;
+  width: 65%;
+  /* margins and size for image1 */
+}
+
+.container-image2{
+  margin-bottom: 3%;
+  width: 65%;
+  /* margins and size for image2 */
+}
+
+.container-pagenumber{
+  background-color: blue;
+  color: #000000;
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+  float: right;
+  font-size: 18px;
+  font-weight: regular;
+  height: 5%;
+  margin-right: 7%;
+  width: 25%;
+    /* change layout and sizing for pagenumber */
 }
 
 .container-subtitle{
   background-color: yellow;
   color: #000000;
   font-family: 'Georgia', sans-serif;
-  font-size: 25;
+  font-size: 25px;
   font-weight: regular;
-  height: 6.7%;
-  line-height: 30pt;
-  letter-spacing: 11;
-  letter-spacing: -30;
-  margin-bottom: 48.02%;
-  margin-left: 4.17%;
-  margin-right: 7.04%;
-  width: 66.67%
-    /* change class color, typeface, size, font weight, and line height*/
+  height: 62.5%;
+  line-height: 30px;
+  letter-spacing: 3px;
+  margin-left: 4%;
+  width: 75%;
+    /* change layout and sizing for subtitle */
 }
 
 .container-text{
   background-color: salmon;
   color: #000000;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 18;
-  font-weight: regular;
-  height: 24.03%;
-  line-height: 25.5pt;
-  margin-left: 4.38%;
-  margin-right: 5.14%;
-  width: 71.64%;
-    /* change class color, typeface, size, font weight, and line height*/
-}
-
-.container-pagenumber{
-  background-color: blue;
-  color: #000000;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica', 'Helvetica', sans-serif;
   font-size: 18px;
   font-weight: regular;
-  height: 0.7%;
-  line-height: 90pt;
-  letter-spacing: -30;
-  margin-bottom: 1.39%;
-  margin-left: 70.85%;
-  width: 22.15%;
-    /* change class color, typeface, size, font weight, and line height*/
+  line-height: 25px;
+  margin-left: 5%;
+  width: 80%;
+    /* change layout and sizing for main body text */
 }
 
-
-.container-image1{
-  height: 54.02%;
-  margin-bottom: 1.45%;
-  margin-top: 3.67%;
-  width: 64.72%;
+.container-title{
+  background-color: pink;
+  font-family: 'Helvetics Neue', 'Helvetica', sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: 3px;
+  margin-bottom: 2%;
+  margin-left: 4%;
+  margin-top: 8%;
+  width: 70%;
+    /* change layout and sizing for title */
 }
 
-.container-image2{
-  height: 36.05%;
-  margin-bottom: 2.63%;
-  width: 64.72%;
+.flexbox-item{
+  display: flex;
+  /* create flexbox to arrange columns */
 }
