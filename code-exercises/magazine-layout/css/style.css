@@ -30,7 +30,6 @@ body {
 }
 
 .container-pagenumber{
-  background-color: blue;
   color: #000000;
   font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
   float: right;
@@ -43,7 +42,6 @@ body {
 }
 
 .container-subtitle{
-  background-color: yellow;
   color: #000000;
   font-family: 'Georgia', sans-serif;
   font-size: 25px;
@@ -57,7 +55,6 @@ body {
 }
 
 .container-text{
-  background-color: salmon;
   color: #000000;
   font-family: 'Helvetica', 'Helvetica', sans-serif;
   font-size: 18px;
@@ -69,7 +66,6 @@ body {
 }
 
 .container-title{
-  background-color: pink;
   font-family: 'Helvetics Neue', 'Helvetica', sans-serif;
   font-size: 50px;
   line-height: 50px;
