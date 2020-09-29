@@ -36,7 +36,7 @@ body {
   font-size: 18px;
   font-weight: regular;
   height: 5%;
-  margin-right: auto;
+  margin-right: 1.5%;
   width: 25%;
     /* change layout and sizing for pagenumber */
 }
@@ -48,7 +48,7 @@ body {
   font-weight: regular;
   height: 62.5%;
   line-height: 30px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   margin-left: 4%;
   width: 75%;
     /* change layout and sizing for subtitle */
