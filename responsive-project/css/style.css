@@ -1,5 +1,4 @@
 * {
-
 }
 
 h1 {
@@ -44,31 +43,32 @@ p {
 }
 
 .container-image2 {
-  width: 100%;
-  margin: auto;
-  position: relative;
+  display: block;
+  max-width: 100%;
+  height: auto;
   padding: auto;
+  margin: 100, auto;
 }
 
 .container-image3 {
-  width: 100%;
-  margin: auto;
-  position: relative;
+  max-width: 100%;
+  height: auto;
   padding: auto;
+  margin: auto;
 }
 
 .container-image4 {
-  width: 100%;
-  margin: auto;
-  position: relative;
+  max-width: 100%;
+  height: auto;
   padding: auto;
+  margin: auto;
 }
 
 .container-image5 {
-  width: 100%;
-  margin: auto;
-  position: relative;
+  max-width: 100%;
+  height: auto;
   padding: auto;
+  margin: auto;
 }
 
 }
@@ -111,7 +111,7 @@ p {
  .nav {
    color: white;
    font-family: Helvetica, sans-serif;
-   font-size: 32px;
+   font-size: 25px;
    font-weight: regular;
    margin: 1% 0% 0% 3.5%;
  }
@@ -221,7 +221,7 @@ body
 #menu li
 {
   padding: 10px 0;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 #menuToggle input:checked ~ ul
