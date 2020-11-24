@@ -51,7 +51,7 @@ body{
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
+/* dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -71,7 +71,7 @@ body{
   align-items: center;
 }
 
-/* Change color of dropdown links on hover */
+/* change color of dropdown links on hover */
 .dropdown-content a:hover {color: grey;}
 
 /* show the dropdown menu on hover */
@@ -80,9 +80,28 @@ body{
 /* change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {color: black;}
 
-.container-image1 {
-  display: flex;
-  width: 100%;
+.img-pour {
+  margin: auto;
+  max-width: 50px;
+  height: auto;
+}
+
+.img-beans {
+  margin: auto;
+  max-width: 50px;
+  height: auto;
+}
+
+.img-allyouneed {
+  margin: auto;
+  max-width: 50px;
+  height: auto;
+}
+
+.img-machine {
+  margin: auto;
+  max-width: 50px;
+  height: auto;
 }
 
 h1 {
