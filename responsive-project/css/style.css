@@ -8,100 +8,103 @@ body{
   font-family: Helvetica, sans-serif;
 }
 
- nav {
-   background: pink;
-   padding: 0 15px;
- }
-
-a {
-  color: #494949;
-  text-decoration: none;
+.flexbox-item {
+  margin: 10px;
+  background-color: pink;
 }
 
-.navlist {
-  list-style-type: none;
+.flexbox-container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flexbox-item-1 {
+  width: 75%;
+  min-height: 50px;
+  flex-grow: 1;
+}
+
+.flexbox-item-2 {
+  width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  align-content: flex-end;
 }
 
 .h1 {
   color: #494949;
   font-size: 40px;
   font-weight: bold;
+  padding: 16px;
 }
 
-.navstyle {
+/* dropdown button */
+.dropbtn {
+  background-color: white;
   color: #494949;
+  padding: 16px;
+  font-size: 40px;
+  font-style: italic;
+  border: none;
+}
+
+/* the container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #494949;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
   font-size: 20px;
   font-weight: regular;
-}
-
-.item {
-  padding: 10px
-}
-
-.h1 a:hover {
-  color: black;
-  text-decoration: none;
-}
-
-.item a:hover {
-  color: black;
-  text-decoration: none;
-}
-
-.toggle a:hover {
-  color: black;
-  text-decoration: none;
-}
-
-/* mobile nav */
-.navlist {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: block;
   align-items: center;
 }
 
-.navlist li a {
-  display: block;
-  padding: 15px 5px;
-}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {color: grey;}
 
-.toggle {
-  order: 1;
-}
+/* show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
 
-.item{
-  order: 2;
+/* change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {color: black;}
+
+.container-image1 {
+  display: flex;
   width: 100%;
 }
 
-.active .item {
-  display: block;
+.flexbox-container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.item-active
-{
-  background-color: blue;
-  border-radius: 3px;
+.flexbox-item-3 {
+  min-height: 100px;
+  flex-grow: 1;
 }
 
-/* desktop nav */
-@media all and (min-width: 960px) {
-    .menu {
-        align-items: flex-start;
-        flex-wrap: nowrap;
-        background: none;
-    }
-    .item {
-        order: 1;
-        position: relative;
-        display: block;
-        width: auto;
-        font-size:
-    }
-    .toggle {
-        display: none;
-    }
+.flexbox-item-4 {
+  min-height: 200px;
+  flex-grow: 1;
 }
 
 
