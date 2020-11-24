@@ -8,36 +8,31 @@ body{
   font-family: Helvetica, sans-serif;
 }
 
-.flexbox-item {
-  margin: 10px;
-  background-color: pink;
-}
-
-.flexbox-container-1 {
+.navbar-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
   align-items: center;
 }
 
-.flexbox-item-1 {
+.charliescafe {
+  margin: 10px;
+  padding: 0px 50px;
   width: 75%;
   min-height: 50px;
   flex-grow: 1;
 }
 
-.flexbox-item-2 {
+.dropdownbutton {
+  margin: 10px;
   width: 50px;
-  min-height: 50px;
   flex-grow: 1;
   align-content: flex-end;
 }
 
-.h1 {
-  color: #494949;
-  font-size: 40px;
-  font-weight: bold;
-  padding: 16px;
+.img-hayden {
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
 }
 
 /* dropdown button */
@@ -90,23 +85,12 @@ body{
   width: 100%;
 }
 
-.flexbox-container-2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+h1 {
+  color: #494949;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 16px;
 }
-
-.flexbox-item-3 {
-  min-height: 100px;
-  flex-grow: 1;
-}
-
-.flexbox-item-4 {
-  min-height: 200px;
-  flex-grow: 1;
-}
-
 
 h2 {
   color: #494949;
