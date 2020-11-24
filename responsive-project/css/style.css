@@ -30,7 +30,7 @@ body{
 }
 
 .img-hayden {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   background-size: cover;
 }
@@ -82,25 +82,25 @@ body{
 
 .img-pour {
   margin: auto;
-  max-width: 50px;
+  width: 50px;
   height: auto;
 }
 
 .img-beans {
   margin: auto;
-  max-width: 50px;
+  width: 50px;
   height: auto;
 }
 
 .img-allyouneed {
   margin: auto;
-  max-width: 50px;
+  width: 50px;
   height: auto;
 }
 
 .img-machine {
   margin: auto;
-  max-width: 50px;
+  width: 50px;
   height: auto;
 }
 
