@@ -1,17 +1,11 @@
 * {
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
+
 }
 
 body{
   font-family: Helvetica, sans-serif;
-}
-
-.navbar-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
 }
 
 .charliescafe {
@@ -22,24 +16,36 @@ body{
   flex-grow: 1;
 }
 
-.dropdownbutton {
-  margin: 10px;
-  width: 50px;
-  flex-grow: 1;
-  align-content: flex-end;
+.column {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
 }
 
-.img-hayden {
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
   width: 100%;
-  height: auto;
-  background-size: cover;
+}
+
+.column-full {
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 4px;
+}
+
+.column-full img {
+  margin-top: 8px;
+  vertical-align: middle;
+  object-fit: cover;
+  width: 100%;
 }
 
 /* dropdown button */
 .dropbtn {
   background-color: white;
   color: #494949;
-  padding: 16px;
+  /* padding: 16px; */
   font-size: 40px;
   font-style: italic;
   border: none;
@@ -49,6 +55,13 @@ body{
 .dropdown {
   position: relative;
   display: inline-block;
+}
+
+.dropdownbutton {
+  margin: 10px;
+  width: 50px;
+  flex-grow: 1;
+  align-content: flex-end;
 }
 
 /* dropdown content (hidden by default) */
@@ -80,63 +93,86 @@ body{
 /* change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {color: black;}
 
-.img-pour {
-  margin: auto;
-  width: 50px;
-  height: auto;
-}
-
-.img-beans {
-  margin: auto;
-  width: 50px;
-  height: auto;
-}
-
-.img-allyouneed {
-  margin: auto;
-  width: 50px;
-  height: auto;
-}
-
-.img-machine {
-  margin: auto;
-  width: 50px;
-  height: auto;
-}
-
 h1 {
   color: #494949;
   font-size: 40px;
   font-weight: bold;
-  padding: 16px;
 }
 
 h2 {
   color: #494949;
   font-size: 30px;
   font-weight: bold;
-  margin: 1% 0% 0% 3.5%;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 h3 {
-color: #494949;
-font-size: 25px;
-font-weight: regular;
-margin: 1% 0% 0% 3.5%;
+  color: #494949;
+  font-size: 25px;
+  font-weight: regular;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 h4 {
   color: #494949;
   font-size: 18px;
   font-weight: regular;
-  margin: 1% 0% 0% 3.5%;
-  width: 250;
+  padding-left:50px;
+  padding-right: 50px;
+}
+
+.img-allyouneed {
+  padding: 50px;
+}
+
+.img-beans {
+  margin-bottom: 50px;
+}
+
+.img-hayden {
+  margin-bottom: 50px;
+}
+
+.img-machine {
+  padding: 50px;
+}
+
+.img-pour {
+  padding: 50px;
+}
+
+.navbar-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 p {
   color: #494949;
   font-size: 18px;
   font-weight: lighter;
-  margin: 1% 0% 0% 3.5%;
-  width: 250;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
